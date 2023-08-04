@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+
+body{
+    background-image: url(https://blog-frontend.envato.com/cdn-cgi/image/width=1200,quality=75,format=auto/uploads/2017/12/design-portfolio-website-copywriting.png);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+    /* background-color: rgb(158, 184, 188); */
+    width: 90vw;
+    margin: auto;
+}
+.main-1{
+    background-color: rgb(158, 184, 188);
+    width: 90vw;
+    margin: auto;
+}
+.info-container{
+    background: #e4f9f5;
+    height: 70vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 5rem;
+    font-family: 'Oleo Script', cursive;
+}
+
+.name{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Charm', cursive;
+}
+
+.about{
+    font-size: 2rem;
+    font-family: 'Quintessential', cursive;
+}
+
+.moreabout{
+    font-size: 1rem;
+    margin-top: 23px;
+    font-family: 'Quintessential', cursive;
+}
+
+.buttons{
+    margin-top: 26px;
+}
+
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+  background-color: black;
+}
+
+.devPic img{
+ height: 50vh;
+ justify-content: flex-end;
+ border-radius: 50%;
+}
+
+.contactform{
+    background-color: #9288F8;
+    border-radius: 5rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 0 34px;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    font-family: 'Quintessential', cursive; 
+}
+
+.contactform h1{
+    font-family: 'Quintessential', cursive;
+    padding-bottom: 10px;
+}
+
+.contactform form div{
+    /* padding: 10px 0; */
+    padding-bottom: 10px;;
+    width: 25vw;
+    font-size: 2rem;
+}
+
+#emailHelp{
+    font-size: 1rem;
+    margin: 0 5px;
+}
+.btn{
+    margin-left: 3rem;
+}
+.btn:hover{
+    border-radius: 20px;
+    background-color: black;
+}
+p{
+ font-family: 'Times New Roman', Times, serif;
+}
+
+.intro h2{
+    font-family: 'Quintessential', cursive;
+    margin: 12px;
+}
+.intro  p{
+    margin: 12px;
+    font-family: 'Quintessential', cursive;
+}
+
+.skillcontainer{
+    padding: 12px;
+}
+
+.skillitem{
+    display: flex;
+    align-items: center;
+    font-family: 'Quintessential', cursive;
+    font-weight: 900;
+}
+.skill{
+    width: 265px;
+    margin-left: .5rem;
+    height: .6rem;
+    background-color: #1A5D1A;
+    border: .1rem solid black;
+}
+.skill-1{
+    width: 9rem;
+    margin-left: .5rem;
+    height: .6rem;
+    background-color: #a29121;
+    border: .1rem solid black;
+}
+
+@media(max-width:900px){
+ body, *{
+    /* background-color: white; */
+    box-sizing: inherit;
+  }
+  .devPic{
+    display: none;
+  }
+  
+}
+
+.container {
+    background-color: whitesmoke;
+    color: black;
+    
+}
+.nav-link{
+    color: black;
+}
+body{
+    background-color: none;
+}
+.intro-container{
+    display: flex;
+    background-color: rgb(238, 243, 241);
+    justify-content: space-around;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+.intro-container-2{
+    display: flex;
+    /* background-color: rgb(238, 243, 241); */
+    justify-content: space-around;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+.skill-container{
+    background-color: #E1F2FB;
+    margin-bottom: 7rem;
+}
+.intro-container{
+    /* background-color: blue; */
+    height: 55vh;
+    width: 85vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.devPic img {
+    height: 50vh;
+    justify-content: flex-end;
+    border-radius: 20%;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+
+.intro {
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+    margin-left: 1rem;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.verify{
+    /* background-color: white; */
+    height: 8vh;
+    margin-right: 1rem;
+    padding-left: 5rem;
+    border-radius: 20%;
+}
+.certify{
+    color:black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.certify:hover{
+    color: dodgerblue;
+}
